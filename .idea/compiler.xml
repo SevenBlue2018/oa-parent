@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/../archetype-oa/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oa-web" />
+        <module name="oa-flow" />
+        <module name="oa-auth" />
+        <module name="commons-flow" />
+        <module name="archetype-oa" />
+        <module name="archetype-demo" />
+        <module name="oa-organ" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="archetype-demo" target="1.5" />
+      <module name="archetype-oa" target="1.5" />
+      <module name="oa-auth" target="1.5" />
+      <module name="oa-flow" target="1.5" />
+      <module name="oa-organ" target="1.5" />
+      <module name="oa-parent" target="1.5" />
+      <module name="oa-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
