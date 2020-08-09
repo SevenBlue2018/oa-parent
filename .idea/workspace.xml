@@ -8,6 +8,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -105,8 +108,8 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.WebControllerTest.testAddEmployee" />
-      <item itemvalue="Maven.mvn parent" />
       <item itemvalue="JUnit.WebControllerTest.testAuthorize" />
+      <item itemvalue="Maven.mvn parent" />
     </list>
     <recent_temporary>
       <list>
@@ -127,10 +130,22 @@
       <updated>1596589447650</updated>
       <workItem from="1596589452765" duration="4126000" />
       <workItem from="1596641290230" duration="1329000" />
+      <workItem from="1596857829117" duration="257000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
