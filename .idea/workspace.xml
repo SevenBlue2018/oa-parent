@@ -105,8 +105,8 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.WebControllerTest.testAddEmployee" />
-      <item itemvalue="Maven.mvn parent" />
       <item itemvalue="JUnit.WebControllerTest.testAuthorize" />
+      <item itemvalue="Maven.mvn parent" />
     </list>
     <recent_temporary>
       <list>

@@ -15,6 +15,7 @@ public class ApplicationServiceImpl implements ApplicationService {
 	
 	@Override
 	public void create(Application app) {
+		System.out.println("create log");
 		applicationMapper.create(app); 
 	}
 
