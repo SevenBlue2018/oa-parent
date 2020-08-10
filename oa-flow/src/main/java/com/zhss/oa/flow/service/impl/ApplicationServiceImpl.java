@@ -35,4 +35,8 @@ public class ApplicationServiceImpl implements ApplicationService {
 	public void updateEmployee(){
 
 	}
+
+	public void computeEmployee(){
+		
+	}
 }
