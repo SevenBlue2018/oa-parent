@@ -15,18 +15,24 @@ public class ApplicationServiceImpl implements ApplicationService {
 	
 	@Override
 	public void create(Application app) {
-		System.out.println("create log");
+		System.out.println("create log!!!");
 		applicationMapper.create(app); 
 	}
 
 	@Override
 	public void delete(Long id) {
-		applicationMapper.delete(id); 
+
+		System.out.println("delete log!!!");
+		applicationMapper.delete(id);
 	}
 
 	@Override
 	public Application findById(Long id) {
 		return applicationMapper.findById(id);
 	}
-	
+
+
+	public void updateEmployee(){
+
+	}
 }
